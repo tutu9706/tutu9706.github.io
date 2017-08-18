@@ -8,7 +8,7 @@
 ### 就请先通过我的github开始访问吧！！！
 
 ### 请点击下面的 fresh
-![fresh](https://tutu9706.github.io)
+![fresh](tutu9706.github.io)
 
 ### 项目名称：视频网站
 - 项目描述：
