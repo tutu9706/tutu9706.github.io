@@ -1,0 +1,390 @@
+body{
+	background: #E5E5E5;
+	overflow-x: hidden;
+}
+/*****************************header*******************************************/
+
+header{
+	width:100%;
+	height:60px;
+	background:#fff;
+	position: fixed;
+	left:0;
+	top:0;
+	z-index: 1;
+	//transition:0.5s;
+	border-top: 1px solid #e5e5e5;
+	border-bottom:2px solid #EEEEEE;
+}
+header .nav{
+	transition:0.5s;
+	position: absolute;
+	left:50px;
+	top:35px;
+	
+}
+.nav a{
+	float:left;
+	color:darkorange;
+	margin-right:20px;
+	font:16px/16px arial;
+}
+.nav a:hover{
+	color:gold;
+}
+header .logo{
+	transition:1s ;
+	position: absolute;
+	width:167px;
+	height:54px;
+	left:589px;
+	top:5px;
+	transform:scale(0.8)
+}
+.headR{
+	width:208px;
+	height:40px;
+	position: absolute;
+	right:220px;
+	top:15px;
+	font:16px/60px "";
+}
+.headR a{
+	color:#000;
+}
+.subnav,.english{
+	width:103px;
+	height:40px;
+	/*border-left:1px solid #e5e5e5;*/
+	/*border-bottom: 1px solid #e5e5e5;*/
+	background: #fff;
+	position:relative;
+}
+.book{
+	transition:0.5s;
+	width:120px;
+	height:40px;
+	/*border-left:1px solid #e5e5e5;*/
+	position:absolute;
+	/*border-bottom: 1px solid #e5e5e5;*/
+	right:208px;
+	top:0;
+}
+
+.headR_t img,.headR .book img{
+	width:15px;
+	height:15px;
+	position:absolute;
+	left:15px;
+	top:20px;
+}
+#nav1,#en1,#weixin1{
+	padding-left:35px;
+	font-size: 12px;
+}
+#subnavList{
+	display: none;
+	width:210px;
+	background:#fff;
+	position: absolute;
+	box-shadow:1px 1px 8px 1px #000;	
+}
+#subnavList li{
+	height:20px;
+	text-align: center;
+}
+#subnavList a{
+	color:#b28850;
+}
+#subnavList li:hover{
+	background:#eeeeee;
+}
+#help{
+	margin-top:30px;
+	background:#b28850;
+}
+#help a{
+	color:#fff;
+}
+.seek{
+	width:207px;
+	height:30px;
+	position: absolute;
+	right:45px;
+	top:20px;
+}
+.seek-text{
+	width: 130px;
+	height:28px;
+	color: #999999;
+	padding-left: 25px;
+	outline: none;
+	background: url(../images/icon/seek_03.png) no-repeat 5px center;
+	position: relative;
+	top:0;
+	border:1px solid #f39800;
+}
+.seek-sub{
+	height:30px;
+	width: 50px;
+	color: #fff;
+	background: #f39800;
+	border:1px solid #f39800;
+}
+/*****************************main*******************************************/
+#main{
+	margin-top: 70px;
+	margin-left: 45px;
+	margin-right: 40px;
+	
+}
+.main-1{
+	/*width:900px;*/
+	width:71%;
+	/*border: 1px solid #000000;
+	padding: 0 15px 0 15px;*/
+}
+#main-1-title{
+	height: 60px;
+	background: #FFFFFF;
+	color: #323232;
+	line-height: 60px;
+}
+#main-1-title i{
+	color: #10aef7;
+}
+video{
+	/*height:700px;*/
+	/*width:900px;*/
+	width:100%;
+}
+.share{
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	font-size: 14px;
+}
+.share b span{
+	height:30px;
+	width: 30px;
+	background: #999999;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.share b .s1:hover{
+	background: #4285f4;
+	cursor: pointer;
+}
+.share b .s2:hover{
+	background: #34a853;
+	cursor: pointer;
+}
+.share b .s3:hover{
+	background: #ea4335;
+	cursor: pointer;
+}
+.share i{
+	float: left;
+	padding-left: 10px;
+}
+.share b{
+	padding-left: 20px;
+	padding-top: 5px;
+	float: left;
+}
+.share b img{
+	width: 15px;
+	height:15px;
+	margin: 8px;
+}
+.visitors{
+	background: #fff;
+	/*width:858px;*/
+	width:95.5%;
+	margin-top: 10px;
+	padding: 10px 20px 0 20px;
+}
+.p1{
+	height:30px;
+	line-height: 30px;
+	padding: 10px 0 0 0px;
+	
+}
+.denglu{
+	margin-bottom: 20px;
+}
+.p1 a{
+	color:#10aef7 ;
+	font-size: 14px;
+}
+.p1 span{
+	padding: 0 5px 0 0px;
+}
+.p2{
+	padding: 10px 15px 0 0;
+	line-height: 30px;
+	color: #999999;
+	}
+.p2 span{
+	color: #000;
+	padding:0 5px 0 5px;
+}
+.issue{
+	margin-top: 15px;
+}
+.issue-sub{
+	height:30px;
+	width: 100px;
+	border: 1px solid #323232;
+	font-size: 14px;
+}
+.visitors-text{
+	/*width:840px;*/
+	width:97%;
+	height:130px;
+	border: 1px solid #000000;
+	padding: 10px;
+}
+.comment{
+	margin-top: 10px;
+}
+.comment-title{
+	height:40px;
+	line-height: 40px;
+	border-bottom: 1px solid #C2C2C2;
+}
+.comment-title i{
+	font-weight: 600;
+	color: #10aef7;
+	font-size: 16px;
+}
+.comment-title span{
+	color: #C2C2C2;
+	font-size: 12px;
+	padding-left: 5px;
+}
+#showUl{
+	margin-top: 15px;
+}
+.showLi{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.showPic{
+	position: relative;
+	/*width:80px;*/
+	width:10%;
+	height: 80px;
+}
+.showT{
+	/*width:780px;*/
+	width:90%;
+}
+.showImg{
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	position: absolute;
+	border: 1px solid #C2C2C2;
+
+}
+.showName{
+	font:16px/20px "微软雅黑";
+}
+.showContent{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.showContent p{
+	font:14px/20px arial;
+	color: #323232;
+}
+.showName a{
+	color: #fb3200;
+}
+.showIcon div{
+	float: left;
+	margin-right: 20px;
+}
+.showIcon a{
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	
+}
+.showIcon span{
+	color: #999999;
+	font-size: 14px;
+}
+
+.showLi{
+	border-bottom: 1px solid #C2C2C2;
+}
+.like{
+	background: url(../images/icon/dianzan1.png) no-repeat;
+}
+.say{
+	background: url(../images/icon/liuyan1.png) no-repeat;
+}
+.collect{
+	background: url(../images/icon/showSc1.png) no-repeat;
+}
+.like:hover{
+	background:url(../images/icon/dianzan2.png) no-repeat ;
+}
+.say:hover{
+	background: url(../images/icon/liuyan2.png) no-repeat;
+}
+.collect:hover{
+	background: url(../images/icon/showSc2.png) no-repeat;
+}
+.main-2{
+	/*width:340px;*/
+	width:25%;
+	/*margin-right: 10px;*/
+	background: #565656;
+	padding: 10px 10px 0 10px;
+}
+.recommendHot{
+	height:20px;
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.recommendHot img{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+.recommendLis li{
+	font-size: 14px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #757575;
+}
+.recommendLis li a{
+	line-height: 30px;
+	color: #fff;
+	float: left;
+	width:380px;
+}
+.recommendLis li span{
+	color: #b3b3b3;
+	font-size: 12px;
+}
+.recommendLis li:hover{
+	background: #808080;
+}
+/********************************用户登录头像*****************************/
+.userId{
+	font:14px/52px arial;	
+	
+}
+.userImg{
+	width:52px;
+	height:52px;
+	border-radius: 50%;
+	overflow: hidden;
+}

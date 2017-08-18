@@ -1,0 +1,159 @@
+/*****************************header*******************************************/
+#s_head{
+	width:100%;
+	height:60px;
+	background:#fff;
+	position: fixed;
+	left:0;
+	top:0;
+	z-index: 1;
+	transition:0.5s;
+	border-top: 1px solid #e5e5e5;
+	border-bottom:2px solid #EEEEEE;
+}
+#s_head .s_nav{
+	transition:0.5s;
+	position: absolute;
+	left:50px;
+	top:25px;
+	
+}
+.s_nav a{
+	float:left;
+	color:darkorange;
+	margin-right:20px;
+	font:16px/16px arial;
+}
+.s_nav a:hover{
+	color:gold;
+}
+#s_head .s_logo{
+	transition:1s ;
+	position: absolute;
+	width:167px;
+	height:54px;
+	left:589px;
+	top:5px;
+	transform:scale(0.8)
+}
+
+.s_headR{
+	width:208px;
+	height:120px;
+	position: absolute;
+	right:0;
+	top:0;
+	font:16px/60px "";
+}
+.s_headR a{
+	color:#000;
+}
+.s_subnav,.s_english{
+	width:103px;
+	height:59px;
+	/*border-left:1px solid #e5e5e5;*/
+	/*border-bottom: 1px solid #e5e5e5;*/
+	background: #fff;
+	position:relative;
+}
+.s_book{
+	transition:0.5s;
+	width:207px;
+	height:59px;
+	/*border-left:1px solid #e5e5e5;*/
+	position:absolute;
+	/*border-bottom: 1px solid #e5e5e5;*/
+	right:208px;
+	top:0;
+}
+
+.s_headR_t img,.s_headR .s_book img{
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:15px;
+	top:20px;
+}
+#s_nav1,#s_en1,#s_weixin1{
+	padding-left:48px;
+}
+
+
+/*****************************more*******************************************/
+#more{
+	width:90%;
+	background:#E5E5E5;
+	padding-top:120px;
+	padding-left:5%;
+	padding-right:5%;
+}
+#more ul{
+	position: relative;
+}
+.moreLi{
+	width:370px;
+	height:160px;
+	margin-right:30px;
+	margin-bottom:60px;
+	border-radius:10px;
+	position: relative;
+	overflow: hidden;
+	/*cursor:pointer;*/
+} 
+#more .moreImg{
+	width:100%;
+	height:110%;
+	transition:0.5s;
+}
+.moreLi:hover .moreImg{
+	transform: translateY(-10%);
+}
+.morePlay{
+	width:50px;
+	height:50px;
+	position: absolute;
+	top:35%;
+	left:45%;
+	opacity: 0.5;
+	transition: .5s;
+}
+.moreLi:hover .morePlay{
+	transform: translateY(-10%);
+	opacity: 1;
+}
+.moreText{
+	width:100%;
+	height:50px;
+	background:rgba(0,0,0,0.4);
+	color:#fff;
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+.moreText span,.moreText i,.moreText b,.moreText em{
+	font:15px/25px arial;
+	position: absolute;
+}
+.moreText strong{
+	font:15px/15px arial;
+	color:#FFD700;
+	position: absolute;
+	bottom:2px;
+	left:25px;
+}
+.moreText img{
+	width:23px;
+	height:23px;
+}
+.moreText i{
+	left:8px;
+	bottom:4px;
+}
+.moreText b{
+	right:60px;
+	bottom:4px;
+}
+.moreText em{
+	right:5px;
+	bottom:4px;
+}
